@@ -1,0 +1,308 @@
+/* pour le style de ecrire de page  */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* nav par de menu */
+#nav1{
+    height: 70px;
+    background-color: hsl(21deg 87% 65%);
+    position: sticky;
+    top: 0;
+    z-index:1 ;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+}
+/* pour le logo  de site */
+#div1{
+    margin-left: 30px;
+}
+
+#div1 img{
+    width: 150px;
+}
+/* de list de menu  */
+.div2{
+    
+        display: flex;
+        flex-flow: row nowrap;
+
+}
+.a{
+    font-size: 15px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+/* les bouton de nav  */
+/* le size de bouton   */
+.btn_list{
+   
+    margin-right: 30px;
+    margin-left: 50px;
+    display: flex;
+    
+}
+/*  le style de bouton   */
+.button_list input, .form_btn{
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    padding: 0 20px 0 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* le bouton traila  */
+.trial_btn{
+    background-color: #032030;
+    border-style: none;
+    margin-left: 80px;
+}
+/* hover de bouton trail */
+.trial_btn:hover{
+    background-color: #0f8cda;
+    cursor: pointer;
+}
+/* le bouton de login */
+.login_btn{
+    background-color: hsl(21deg 87% 65%);
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin-left: 20px;
+}
+/* hover de bouton login */
+.login_btn:hover{
+    background-color: #16100c;
+    cursor: pointer;
+}
+/* le bouton submit  */
+.login_submit{
+    background-color: hsl(21deg 87% 65%);
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+/* hover de bouton submit */
+.login_submit:hover{
+    background-color: #16100c;
+    cursor: pointer;
+}
+/* header */
+/* Style de header  */
+header{
+    background-color: hsl(21deg 87% 65%);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250px;
+    text-align: center;
+    margin-top: 0;
+}
+/* "header"pour ecrire de text dan headr */
+.div3{
+    display: inline-block   ;
+    margin-top: 100px;
+}
+/* "header"contact us  */
+header h1{
+    color: white;
+    font-size: 50px;
+    margin-top:0px;
+}
+/* "header" text En bas de "contact us" */
+header p{
+    font-size: 15px;
+    color: #473539;
+    transform: translate(0,-30px);
+}
+/* main */
+/* le style de main */
+main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+/* div mear  pour le zone text de form */
+.main_left{
+    width: 50%;
+}
+/* "main"'left' de style de div enfant  */
+.left{
+    padding-left: 100px;
+    padding-right: 50px;
+    margin: auto;
+}
+/* "main" le deux div pour le "div left" et le "div right" pour style de 'h1'  */
+.left h1, .right h1{
+    color: #5bb5db;
+    font-size: 30px;
+}
+/* "main" le deux div pour le "div left" et le "div right" pour style de 'p'  */
+.left p, .right p{
+    font-size: 15px;
+    color: #767676;
+}
+/* "main" 'div left' pour position de colomun de input  */
+.left form{
+    display: flex;
+    flex-direction: column;
+}
+/* "main" style des zone de text  et  border  */
+.contact_input, textarea{
+    height: 40px;
+    border-radius: 7px;
+    border-color: #ccccd3;
+    border-style: solid;
+    margin-top: 30px;
+}
+/* "main" le style de text entre le form de zone de text  */
+::placeholder{
+    color:#e6e6e6;
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 12px;
+}
+/* "main" form  de text message */
+textarea{
+    height: 200px;
+    border-width: 2px;
+}
+/*  
+.form_btn{
+    align-self: 
+    flex-end;
+    width: 100px;
+    height: 70px;
+    background-color: #f39b6b;
+    border-style: none;
+    font-size: 17px;
+    margin-top: 40px;
+}*/
+/* "main" 'div right' les style de div  */
+/* "main" le size de main  */
+.main_right{
+    width: 50%;
+}
+/* "main" le position de div "right " */
+.right{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+/* "main" le style de text et le color  */
+.help_center, .rs{
+    text-decoration: none;
+    color: #e5b8a5;
+}
+/* "main" le position de de div de reasu social  */
+.social_links{
+    margin-top: 70px;
+}
+/* "main" style de h1 dans "div right"  */
+.social_links h1{
+    color: #373737;
+    font-weight: lighter;
+    font-size: 35px;
+}
+/* "main" les icon de reasu social  */
+.main_right i{
+    color: #f39b6b;
+    font-size: 80px;
+}
+/* "main" le pargraphe  reasu social */
+.social_links p{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+/* "main" style les icon  */
+#twitter_icon, #linkedin_icon,#facebook_icon{
+    float: left;
+    border-radius: 50%;
+    color: white;
+    background-color: #f39b6b;
+    padding: 15px;
+    font-size: 20px;
+}
+/* "main" le espace pour de div   */
+.social_links div{
+    margin-bottom: 10px;
+}
+/* "footer" le bas de site  */
+/* "footer" la taille de footer est style   */
+footer{
+    height: 275px;
+    background-color: #404040;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+/* "footer" div  pour  footer top */
+
+.footer_top{
+    display: flex;
+    justify-content: center;
+}
+/* "footer" les espace pour chac coolumn  */
+.footer_top li{
+    margin-bottom: 10px;
+}
+/* "footer" style de list et size   */
+footer ul{
+    list-style: none;
+    color: #8c8c8c;
+    font-size: 12px;
+}
+/* "footer" titel de chac list    */
+.list_title{
+    color: white;
+}
+/* "footer" les icon de footer  */
+.list_icons i{
+    color: #f39b6b;
+    margin: 5px;
+}
+/* "footer" bouton de footer   */
+.footer_button{
+    padding: 15px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 10px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(2 32 47);
+    color: white;
+}
+/* "footer" style de bouton   */
+.footer_button:hover{
+    background-color: #16100c;
+    cursor: pointer;
+}
+/* "footer" le list en clikab   */
+.afoter{
+    text-decoration: none;
+    color: rgb(119, 117, 117);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* "footer" footer bottom   */
+/* "footer" style de footer bottom  */
+.footer_bottom{
+    background-color: #333333;
+    height: 40px;
+    width: 797px;
+    padding-left: 40%;
+}
+/* "footer" color de text   */
+.footer_bottom p{
+    color: #909090;
+}
+/* "footer" style de "a"  */
+.footer_bottom a{
+    text-decoration: none;
+    color: #F49B6C;
+}
+
